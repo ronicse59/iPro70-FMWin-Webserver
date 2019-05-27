@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>Read Me</h1>
+<h6>iPro70-FMWin: <font color="#FF1493">A tool for Identifying Sigma70 Promoters Using Multiple Windowing and Minimal Features</font></h6>
+    <hr>
+
+    <h5>Home Page</h5>
+    <p>To visit home page, click <a href="/" target="_blank">Home</a> from navbar or visit following link for the home page: <a href="http://ipro70.pythonanywhere.com/" target="_blank">http://ipro70.pythonanywhere.com/</a>. The page is only containing the abstract of this project.</p><hr>
+    <h5>Server Page</h5>
+        <p>To visit server page, click <a href="/server" target="_blank">Server</a> from navbar or visit: <a href="http://ipro70.pythonanywhere.com/server" target="_blank">http://ipro70.pythonanywhere.com/server</a>.</p>
+        <p>It is better to use example first to understand how will be the input exactly. Another, there are two choices for the input. Either type or copy and paste the query DNA sequence into the input box. The input sequence must be in FASTA format.
+        A sequence in FASTA format begins with a single-line description, followed by lines of sequence data. The description line is distinguished from the sequence data by a greater-than (">") symbol at the beginning. It is recommended that all lines of text be 81 characters in length.
+        Except for the line starting with symbol ">", all the other characters in the lines are considered for the purpose of identification.
+        The sequence ends if another line starting with the symbol ">" appears; this indicates the start of another sequence. Blank lines are not allowed in the middle of FASTA input. To see an example sequence in FASTA format, click <button>Example</button> in the <a href="/server" target="_blank">Server</a> page. Finally, click <button>Submit</button> for the prediction result.</p><hr>
+
+    <h5>Download Page</h5>
+        <p>Everything can be downloaded from <a href="/download" target="_blank">Download</a> page regarding this project such as Benchmark Dataset</p>
+    <hr>
+    <h5>Citation Page</h5>
+        <p>A .bibtex file can be found in the <a href="/citation" target="_blank">Citation</a> page</p>
+    <hr>
+    <h5>Authors Page</h5>
+<p>All the authors related to this project can be found in the <a href="/author" target="_blank">Author</a> page</p>
+    <hr>
+{% endblock %}

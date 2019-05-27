@@ -1,0 +1,9 @@
+have to install "scikit-learn" in server bash mode
+----------------------------------------------------
+pip install -U scikit-learn
+
+
+server pass
+ipro.pythonanywhere.com
+email: msrahman.research@gmail.com
+server!@#

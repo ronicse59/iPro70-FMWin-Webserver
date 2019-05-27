@@ -1,0 +1,17 @@
+folder
+------
+static
+templates
+
+files
+-------------------------------------------------------------
+app.py
+fast_reader.py
+feature_extractor_window.py
+feature_selector.py
+model.pkl
+methods.py
+model.pkl
+-------------------------------------------------------------
+Update
+-------------------------------------------------------------

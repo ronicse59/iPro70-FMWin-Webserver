@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block body %}
+    <div class="jumbotron text-center" style="color:#FF1493;">
+        <h1><img src="../static/fabicon.png" alt="Home" height="50" width="40">&nbsp;&nbsp;iPro70-FMWin</h1>
+        <p class="lead" style="text-align:center;"><b>Identifying Sigma70 Promoters Using Multiple Windowing and Minimal Features
+        </b></p>
+    </div>
+    <div class="jumbotron text-justify" style="font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;">
+        <h3 style="text-align: center;">Abstract</h3>
+<p>In bacterial DNA, there are specific sequences of nucleotides called promoters that can
+bind to the RNA polymerase. Sigma70 (<var>σ</var><sup>70</sup>) is one of the most important promoter sequences
+due to it’s presence in most of the DNA regulatory functions. In this paper, we identify the
+most effective and optimal sequence-based features for prediction of <var>σ</var><sup>70</sup> promoter sequences
+in a bacterial genome. We used both short-range and long-range DNA sequences in our proposed method. A very small number of effective features are selected from a large number
+of the extracted features using multi-window of different sizes within the DNA sequences.
+We call our prediction method iPro70-FMWin and made it freely accessible online via a web
+application established at http://ipro70.pythonanywhere.com/server for the sake of convenience of the researchers. We have tested our method using a standard benchmark dataset.
+In the experiments, iPro70-FMWin has achieved an area under the curve of the receiver
+operating characteristic and accuracy of 0.959 and 90.57% respectively which significantly
+outperforms the state-of-the-art predictors.</p>
+    </div>
+<h6 style="text-align:center;"><font color="red">Please click <a href="/readme" target="_blank">Read Me</a> first for the instruction.</font></h6>
+{% endblock %}
